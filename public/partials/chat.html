@@ -1,0 +1,35 @@
+<div class="well">
+    <form class="form-horizontal">
+        <fieldset>
+            <div class="form-group">
+                <div class="col-lg-10" style="height: 305px; overflow: auto;" scroll-glue>
+
+                    <p class="head text-success">
+                        [+] Chatbot invated <a class="head text-success" href="" style="font-weight: bold" ng-repeat="participant in participants">{{ participant }}</a>. Enjoy ur self!
+                    </p>
+
+                    <div ng-repeat="chat in chats" ng-style="chat.style" ng-class="{bubbledLeft:chat.user==me, bubbledRight:chat.user!=me}">{{ chat.message }}</div>
+
+                </div>
+            </div>
+
+            <hr style="margin-top: 5px;">
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <input class="form-control" style="width: 220px;float: left;" type="text" placeholder="Input Message..." ng-model="sendMessage" ng-enter="clickSend()">
+
+                    <div style="float: right;" class="btn-group open">
+                        <a class="btn btn-success dropdown-toggle" data-toggle="dropdown" href="" ><span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="left: auto; right: -2px;top: auto;bottom: 32px">
+                            <li><a href="" ng-click="clickActivity('vote')">Go Vote</a></li>
+                            <li><a href="" ng-click="">Emoticon > ^^ / :-) / =33</a></li>
+                        </ul>
+                    </div>
+                    <button style="float: right;margin-right: 5px" type="submit" class="btn btn-info" ng-click="clickSend()">Send</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<button ng-click="backToDetail('promise')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back"/>

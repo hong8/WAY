@@ -1,0 +1,96 @@
+<div class="well">
+    <form class="form-horizontal">
+        <fieldset>
+            <div>
+                <div class="form-group">
+
+                    <label class="col-lg-2 control-label" for="dpkDate">Alarm</label>
+
+                    <div class="col-lg-10">
+                        <div id="dpkDate" class="input-append" style="float: left;margin-right: 5px">
+                            <input class="form-control" data-format="yyyy-MM-dd" type="text" style="width: 98px;float: left;" required/>
+                            <button type="button" class="btn btn-default add-on">
+                                <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                            </button>
+
+                        </div>
+                        <script type="text/javascript">
+                            $(function () {
+                                $('#dpkDate').datetimepicker({
+                                    pickTime: false
+                                });
+                            });
+                        </script>
+                        <div id="dpkTime" class="input-append">
+                            <input class="form-control" data-format="hh:mm" type="text" style="width: 62px;float: left;" required/>
+                            <button type="button" class="btn btn-default add-on">
+                                <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                            </button>
+                        </div>
+                        <script type="text/javascript">
+                            $(function () {
+                                $('#dpkTime').datetimepicker({
+                                    pickDate: false
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label" for="sltType">Alarm Type</label>
+
+                <div class="col-lg-10">
+                    <select id="sltType" class="form-control">
+                        <option>Melody</option>
+                        <option>Vibration</option>
+                        <option>Melody and Vibration</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label" for="sltTone">Alarm Tone</label>
+
+                <div class="col-lg-10">
+                    <select id="sltTone" class="form-control">
+                        <option>Melody 1</option>
+                        <option>Melody 2</option>
+                        <option>Melody 3</option>
+                        <option>Melody 4</option>
+                        <option>Melody 5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group" >
+                <label class="col-lg-2 control-label" for="sltSnooze">Snooze</label>
+
+                <div class="col-lg-10">
+                    <select id="sltSnooze" class="form-control">
+                        <option>3 min</option>
+                        <option>5 min</option>
+                        <option>10 min</option>
+                        <option>15 min</option>
+                        <option>30 min</option>
+                        <option>1 hour</option>
+                        <option>1 hour 30 min</option>
+                        <option>2 hour</option>
+                        <option>3 hour 30 min</option>
+                        <option>3 hour</option>
+                    </select>
+                </div>
+            </div>
+
+            <hr style="margin-top: 5px;">
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="submit" class="btn btn-info">Save</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<button ng-click="backToDetail('promise')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back" />

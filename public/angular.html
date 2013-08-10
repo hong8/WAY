@@ -1,0 +1,155 @@
+<!-- for bottstrap -->
+<!--<link href="http://netdna.bootstrapcdn.com/bootswatch/2.3.2/united/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
+<!--<link href="http://bootswatch.com/default/bootstrap-responsive.min.css" rel="stylesheet">-->
+<!--<link href="http://bootswatch.com//css/font-awesome.min.css" rel="stylesheet">-->
+
+<link rel="stylesheet" href="http://bootswatch.com/united/bootstrap.min.css" media="screen">
+<link rel="stylesheet" href="http://bootswatch.com/bower_components/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://bootswatch.com/assets/css/bootswatch.min.css">
+
+<script src="http://bootswatch.com/assets/js/bsa.js"></script>
+<script src="http://bootswatch.com/bower_components/jquery/jquery.min.js"></script>
+<script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="http://bootswatch.com/assets/js/bootswatch.js"></script>
+
+<!--for date/time picker -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+<script type="text/javascript" src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<!--for highcharts-->
+<script src="http://code.highcharts.com/highcharts.js"></script>
+
+<!--for calendar-->
+<link rel='stylesheet' type='text/css' href='http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.css' />
+<link rel='stylesheet' type='text/css' href='http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.print.css' media='print' />
+<script type='text/javascript' src='http://arshaw.com/js/fullcalendar-1.6.2/jquery/jquery-ui-1.10.2.custom.min.js'></script>
+<script type='text/javascript' src='http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.min.js'></script>
+
+<!--for googlemap-->
+<!--<link rel='stylesheet' type='text/css' href='https://developers.google.com/maps/documentation/javascript/examples/default.css?hl=ko&csw=1' />-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<!-- for chat -->
+<link title="Style1" rel="stylesheet" type="text/css" href="styles/chat.css" />
+
+<!--for angularjs-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>-->
+
+<style type="text/css">
+    html,body {
+        height:100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        margin-top: -22px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .app-top {
+        height: 40px;
+        position: relative;
+    }
+
+    .app-middle {
+        min-height: 100%;
+        margin: -40px 0 -40px;
+    }
+
+    .app-content {
+        height: 100%;
+        padding: 55px 0 25px;
+    }
+
+    .app-bottom {
+        height: 40px;
+    }
+
+    .well {
+        padding: 10px 0px 10px 0px;
+        min-width: 360px;
+        min-height: 400px;
+
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .btn-back {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top:60px;
+        right: 15px
+    }
+</style>
+
+<script type="text/javascript">
+    function WebSocketTest()
+    {
+        if ("WebSocket" in window)
+        {
+            alert("WebSocket is supported");
+            // Let us open a web socket
+            var socket = new WebSocket('ws://html5rocks.websocket.org/echo');
+            socket.onopen = function(event) {
+                socket.send('Hello, WebSocket');
+            };
+            socket.onmessage = function(event) { alert(event.data); }
+            socket.onclose = function(event) { alert('closed'); }
+        }
+        else
+        {
+            // The browser doesn't support WebSocket
+            alert("NOT supported!!!!!!!!!!!!!!!");
+        }
+    }
+
+    function SocketJSTest()
+    {
+        if ("WebSocket" in window)
+        {
+            alert("WebSocket is supported");
+            // Let us open a web socket
+            var socket = new SockJS('ws://html5rocks.websocket.org/echo/websocket', null, null);
+            socket.onopen = function(event) {
+                socket.send('Hello, WebSocket');
+            };
+            socket.onmessage = function(event) { alert(event.data); }
+            socket.onclose = function(event) { alert('closed'); }
+        }
+        else
+        {
+            // The browser doesn't support WebSocket
+            alert("NOT supported!!!!!!!!!!!!!!!");
+        }
+    }
+</script>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+<div manifest="http://way.meteor.com/app.manifest" ng-controller="MainCtrl" style="height: 100%;min-width: 328px">
+
+    <div class="app-top">
+        <h1 ng-model="title" style="text-overflow:ellipsis;overflow:hidden;white-space:nowrap;" title="{title}}">{{ title }}</h1>
+    </div>
+
+    <div class="app-middle">
+        <div class="app-content">
+            <ng-view></ng-view>
+        </div>
+    </div>
+
+    <ul class="nav nav-pills app-bottom">
+        <li style="width: 32%;font-size: 15px;text-align: center" ng-click="selectMenu('my')" ng-class="{active : naviSelected1}"><a href="#my">My</a></li>
+        <li style="width: 32%;font-size: 15px;text-align: center" ng-click="selectMenu('create')" ng-class="{active : naviSelected2}"><a href="#new">New</a></li>
+        <li style="width: 32%;font-size: 15px;text-align: center" ng-click="selectMenu('credit')" ng-class="{active : naviSelected3}"><a href="#credit">Credit</a></li>
+    </ul>
+</div>

@@ -1,0 +1,53 @@
+{
+    "title": {
+        "text": "Credit Rate"
+    },
+    "xAxis": {
+        "categories": ["Man1", "Man2", "Man3", "Man4"],
+        "title": {
+            "text": "User"
+        }
+    },
+    "yAxis": {
+        "min": 0,
+        "title": {
+            "text": "Rate",
+            "align": "high"
+        },
+        "labels": {
+            "overflow": "justify"
+        }
+    },
+    "tooltip": {
+        "valueSuffix": " %"
+    },
+    "plotOptions": {
+        "bar": {
+            "dataLabels": {
+                "enabled": true
+            },
+            "size" : "100%"
+        }
+    },
+    "legend": {
+        "layout": "vertical",
+        "align": "right",
+        "verticalAlign": "top",
+        "x": 0,
+        "y": 30,
+        "floating": true,
+        "borderWidth": 1,
+        "backgroundColor": "#FFFFFF",
+        "shadow": true
+    },
+    "credits": {
+        "enabled": false
+    },
+    "series": [{
+        "name": "Plan",
+        "data": [100, 50, 60, 90]
+    }, {
+        "name": "Actual",
+        "data": [70, 70, 90, 50]
+    }]
+}

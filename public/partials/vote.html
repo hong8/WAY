@@ -1,0 +1,57 @@
+<style type="text/css">
+    .widthEdit {
+        width: 79%;
+    }
+    .widthNotEdit {
+        width: 86%;
+    }
+</style>
+
+<div class="well">
+    <form class="form-horizontal">
+        <fieldset>
+            <div class="form-group" >
+                <label class="col-lg-2 control-label" for="txaQuestion" >Question</label>
+
+                <div class="col-lg-10">
+                    <textarea class="form-control" id="txaQuestion" rows="2" ng-disabled="!editMode">{{ question.question }}</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Options</label>
+
+                <div style="position: absolute;margin-top: -30px; right: 12px" ng-show="editMode">
+                    Add Option&nbsp;&nbsp;<button class="btn btn-success icon-plus icon-white" style="width: 30px;height: 30px;padding-right: 22px;margin-right: 10px"/>
+                </div>
+
+                <div class="col-lg-10" style="height: 176px; overflow: auto;" >
+
+                    <div style="width: 100%;float: left;vertical-align: middle" ng-repeat="option in question.options">
+                        <div style="width: 5%;float: left;margin-top: 7px">
+                            {{ $index+1 }}.
+                        </div>
+                        <!--<div style="width: 100%;position: relative;">-->
+                        <input ng-class="{widthEdit:!editMode, widthNotEdit:editMode}" style="margin-bottom:6px;margin-right: 5px;float: left" type="text" class="form-control" value="{{ option.option }}" ng-disabled="!editMode">
+                        <!--<div class="label label-important" style="width: 80%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0.5;" ng-show="!editMode"> </div>-->
+                        <!--</div>-->
+                        <span style="width: 20px;height: 20px;margin-top: 10px; margin-right: 5px;text-align: left;float: left" class="badge badge-info" ng-show="!editMode">{{ option.count }}</span>
+                        <input style="width: 20px;height: 20px; margin-top: 10px;float: left" type="checkbox" name="groupSelect" ng-show="!editMode">
+                        <button style="width: 22px;padding-left: 5px;margin-top: 3px;" class="btn btn-danger icon-remove icon-white" ng-show="editMode"/>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr style="margin-top: 5px;">
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="submit" class="btn btn-info" ng-show="editMode" ng-click="editMode=false;">Send Poll</button>
+                    <button type="submit" class="btn btn-info" ng-show="!editMode" ng-click="editMode=true;">Send Vote</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<button ng-show="!newMode" ng-click="backToDetail('promise')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back"/>
