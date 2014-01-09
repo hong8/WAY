@@ -1,0 +1,87 @@
+<style>
+    .fileinput-button {
+        position: relative;
+        overflow: hidden;
+    }
+    .fileinput-button input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        transform: translate(-300px, 0) scale(4);
+        font-size: 23px;
+        direction: ltr;
+        cursor: pointer;
+    }
+
+    #photo {
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        border: solid #656565;
+        border-radius: 8px;
+    }
+
+    #photo img {
+        max-width: 250px;
+        max-height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<div class="well">
+    <form class="form-horizontal">
+        <fieldset>
+
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <div id="photo">
+                        <img id="imgPhoto" src="images/orange_user.png">
+
+                        <div class="row fileupload-buttonbar" style="position: absolute;top: 0px;">
+                            <div class="col-lg-7" style="margin-left: 1px;margin-top: 9px">
+                                <!-- The fileinput-button span is used to style the file input field as button -->
+                                <span class="btn btn-success fileinput-button icon-camera icon-white" ng-class="{disabled: disabled}">
+                                    <input type="file" name="files[]" multiple="" ng-disabled="disabled" ng-model-instant id="fileToUpload" onchange="angular.element(this).scope().setFiles(this)">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label" for="tipName">{{ profile_name }}</label>
+
+                <div class="col-lg-10">
+                    <input name="tipPromise" id="tipName" type="text" class="form-control" required ng-model="profile.name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label" for="tipState">{{ profile_states }}</label>
+
+                <div class="col-lg-10">
+                    <input name="tipPromise" id="tipState" type="text" class="form-control" required ng-model="profile.state">
+                </div>
+            </div>
+
+            <hr style="margin-top: 5px;">
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="submit" class="btn btn-info" ng-click="uploadFile()">{{ profile_save }}</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<button ng-click="backToDetail('my')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back" />
+

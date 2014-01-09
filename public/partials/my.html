@@ -1,20 +1,32 @@
 <style type="text/css">
     #calendar {
         width: 100%;
+        height: 100%;
         margin: 0 auto;
-        font-size: 12px;
+        font-size: 16px;
     }
     h2 {
         font-size: 24px;
         height: 20px;
     }
 
-    .fc-event-inner, .fc-event-title
-    {
-        text-overflow : ellipsis;
-        overflow : hidden;
-        white-space : nowrap;
+    .well {
+        padding: 10px;
     }
+    .fc-week {
+        height: 68px;
+    }
+    .fc-header .fc-button {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    /*.fc-event-inner, .fc-event-title*/
+    /*{*/
+        /*text-overflow : ellipsis;*/
+        /*overflow : hidden;*/
+        /*white-space : nowrap;*/
+    /*}*/
 
 </style>
 
@@ -26,9 +38,6 @@
                     <div name="calendar" id="calendar"></div>
                 </div>
             </div>
-            <!--<div name="details" id="details" class="ui-helper-hidden" title="Event Details">-->
-            <!--<p>Event details</p>-->
-            <!--</div>-->
         </fieldset>
     </form>
 </div>

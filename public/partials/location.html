@@ -3,20 +3,29 @@
         height: 100%;
     }
 
+    .participant {
+        font-size: 10px;
+        padding:1px;
+        margin-right: 5px;
+        margin-top: -3px;
+        max-width: 70px;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space:nowrap;
+    }
 </style>
 
-
-<div class="well">
+<div class="well" >
     <form class="form-horizontal">
         <fieldset>
             <div class="form-group" >
-                <div class="col-lg-10" style="height: 375px;">
+                <div class="col-lg-10" style="height: 445px;">
                     <div id="map-canvas"  ></div>
                 </div>
-                <div class="form-group" style="position: absolute; margin-top: -10px;padding-left: 15px" >
-                    <div style="float: left" >
-                        <div ng-repeat="participant in participants" style="float: left;margin-top: 8px">
-                            <a id="btnParticipants" class="btn btn-small" href="" ng-style="participant.style" style="font-size: 10px; padding:1px;margin-right: 5px;margin-top: -3px;max-width: 70px; text-overflow:ellipsis;overflow:hidden;white-space:nowrap;" title="{{ participant.user }}">{{ participant.user }}</a>
+                <div class="form-group" style="position: absolute;padding-left: 15px;" >
+                    <div style="float: left;padding-left: 15px" >
+                        <div ng-repeat="participant in participants" style="float: left;margin-top: 0px">
+                            <a class="btn btn-small participant" href="" ng-style="participant.style" ng-click="setCenter(participant.location)" title="{{ participant.name }}">{{ participant.name }}</a>
                         </div>
                     </div>
                 </div>
@@ -24,4 +33,4 @@
         </fieldset>
     </form>
 </div>
-<button ng-click="backToDetail('promise')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back"/>
+<button ng-click="backToDetail('promise')" ng-show="!isDirectRoute" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back"/>

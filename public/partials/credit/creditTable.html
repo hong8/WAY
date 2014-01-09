@@ -17,7 +17,7 @@
     }
 
     tbody {
-        height: 265px;
+        height: 335px;
         overflow-y: auto;
         border-top: 1px solid dimgray;
     }
@@ -31,25 +31,29 @@
         width: calc(100% - 15px);
     }
 
+    tbody {
+        overflow-y: scroll;
+    }
+
     tbody td, thead th {
         float: left;
     }
 
 </style>
 
-<table class="table table-bordered table-striped table-hover" >
+<table class="table table-bordered table-striped table-hover" ng-init="predicate='actual / plan';reverse=true;" >
     <thead>
         <tr>
-            <th style="width: 10%;">#</th>
-            <th style="width: 50%;">Participant</th>
-            <th style="width: 20%;">Rate</th>
-            <th style="width: 20%;">Desc</th>
+            <th style="width: 10%;text-align: center">#</th>
+            <th style="width: 50%;text-align: center"><a href="" ng-click="predicate='user.name';reverse=!reverse">{{ credit_table_participant }}</a></th>
+            <th style="width: 20%;text-align: center"><a href="" ng-click="predicate='actual / plan';reverse=!reverse">{{ credit_table_rate }}</a></th>
+            <th style="width: 20%;text-align: center"><a href="" ng-click="predicate='actual / plan';reverse=!reverse">{{ credit_table_desc }}</a></th>
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="credit in credits">
-            <td style="width: 10%;">{{ $index }}</td>
-            <td style="width: 50%;vertical-align: top"><img style="margin-top: -4px" src="{{ credit.contact }}">&nbsp;{{ credit.user }}</td>
+        <tr ng-repeat="credit in credits | orderBy:predicate:reverse">
+            <td style="width: 10%;">{{ $index+1 }}</td>
+            <td style="width: 50%;vertical-align: top"><img style="margin-top: -4px" src="{{ credit.contact.photo }}">&nbsp;{{ credit.user.name }}</td>
             <td style="width: 20%;text-align: center">{{ credit.actual / credit.plan * 100 | number:0 }}%</td>
             <td style="width: 20%;text-align: center">{{ credit.actual }}/{{ credit.plan }}</td>
         </tr>

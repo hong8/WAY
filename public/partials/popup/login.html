@@ -1,0 +1,27 @@
+<style type="text/css">
+    .register
+    {
+        overflow: hidden;
+        height: 67px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+</style>
+
+<div class="modal-header">
+    <button type="button" class="close" ng-click="close()">×</button>
+    <h3>{{ title }}</h3>
+</div>
+
+<div class="modal-body" ng-class="{register:isResiter}">
+    <input type="text" class="form-control input-sm" ng-show="isResiter" placeholder="registerdialog_name_placeholder" ng-model="name" required style="margin-bottom: 2px">
+    <input type="text" class="form-control input-sm" ng-show="isResiter" placeholder="registerdialog_telephonenumber_placeholder" ng-model="phonenumber" ng-enter="signIn()">
+    <input type="text" class="form-control" ng-show="!isResiter" placeholder="logindialog_telephonenumber_placeholder" ng-model="phonenumber" ng-enter="signIn()">
+</div>
+
+<div class="modal-footer">
+    <button ng-click="close()" class="btn btn-default" >{{ common_close }}</button>
+    <button type="submit" class="btn btn-primary" ng-click="signIn()">{{ logindialog_login_signin }}</button>
+</div>
+
+

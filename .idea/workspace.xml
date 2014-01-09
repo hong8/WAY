@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/public/styles/main.css" description=".app-top {" line="14" />
+    <bookmark url="file://$PROJECT_DIR$/client/app/controller.js" line="2190" />
+    <bookmark url="file://$PROJECT_DIR$/client/app/controller.js" line="2141" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" name="Default" comment="&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bundle/Messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bundle/Messages_en.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bundle/Messages_ko.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/WAY.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/alarmstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/popup/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/popup/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app.js.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/enterDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/highchartsDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/scrollerDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/controller.js.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/chuja.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/hong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/jihyun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/left_chatter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/right_chatter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/sun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/chat/yoona.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smart.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/styles/chat.css" afterPath="$PROJECT_DIR$/public/styles/chat/chat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/alarm.html" afterPath="$PROJECT_DIR$/public/partials/alarm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/angular.html" afterPath="$PROJECT_DIR$/public/angular.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.js" afterPath="$PROJECT_DIR$/client/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/bootstrap.js" afterPath="$PROJECT_DIR$/server/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/chat.html" afterPath="$PROJECT_DIR$/public/partials/chat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/controller.js" afterPath="$PROJECT_DIR$/client/app/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/credit.html" afterPath="$PROJECT_DIR$/public/partials/credit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/credit/creditTable.html" afterPath="$PROJECT_DIR$/public/partials/credit/creditTable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/credit/creditVisual1.html" afterPath="$PROJECT_DIR$/public/partials/credit/creditVisual1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/credit/creditVisual2.html" afterPath="$PROJECT_DIR$/public/partials/credit/creditVisual2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/location.html" afterPath="$PROJECT_DIR$/public/partials/location.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/my.html" afterPath="$PROJECT_DIR$/public/partials/my.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/new.html" afterPath="$PROJECT_DIR$/public/partials/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish.js" afterPath="$PROJECT_DIR$/server/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart.json" afterPath="$PROJECT_DIR$/smart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/vote.html" afterPath="$PROJECT_DIR$/public/partials/vote.html" />
+    </list>
+    <ignored path="WAY.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382927317217" ignored="false" />
+    <file path="/bootstrap.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382511896215" ignored="false" />
+    <file path="/a.dummy" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382592038378" ignored="false" />
+    <file path="/angular.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382502358741" ignored="false" />
+    <file path="/new.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380112510229" ignored="false" />
+    <file path="/controller.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382930822058" ignored="false" />
+    <file path="/publish.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380435209062" ignored="false" />
+    <file path="/login.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380103101803" ignored="false" />
+    <file path="/app.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380427787881" ignored="false" />
+    <file path="/account.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378307384770" ignored="false" />
+    <file path="/login.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1377577635836" ignored="false" />
+    <file path="/search.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380085520714" ignored="false" />
+    <file path="/chat.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380084086219" ignored="false" />
+    <file path="/location.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379709145152" ignored="false" />
+    <file path="/main.css" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379168640641" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/homepage/index.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532170923" ignored="false" />
+    <file path="/index.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378537705484" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/homepage/README" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532301361" ignored="false" />
+    <file path="/README" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532301361" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/homepage/main.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532687235" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/homepage/my.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532698186" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/homepage/about.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378532704662" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/index.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378537717455" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/main.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535360466" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/app.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378536603606" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/controller.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535460847" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/my.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535349235" ignored="false" />
+    <file path="/my.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379745247188" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/hong8.github.com/about.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535370979" ignored="false" />
+    <file path="/about.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535370637" ignored="false" />
+    <file path="/main.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378535360084" ignored="false" />
+    <file path="/splash.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380271593079" ignored="false" />
+    <file path="/credit.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382592235744" ignored="false" />
+    <file path="/checkbox.css" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378892912464" ignored="false" />
+    <file path="/directives.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378969313000" ignored="false" />
+    <file path="/alarm.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380110635495" ignored="false" />
+    <file path="/alarmstorage.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379072942732" ignored="false" />
+    <file path="$PROJECT_DIR$/../angularShop_meteor/lib/angularCart.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1378977135271" ignored="false" />
+    <file path="/Messages.properties" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382511075544" ignored="false" />
+    <file path="/Messages_ko-KR.properties" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379500118878" ignored="false" />
+    <file path="/Messages_ko.properties" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380278708921" ignored="false" />
+    <file path="/utils.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382928504090" ignored="false" />
+    <file path="$PROJECT_DIR$/../PictureFeed/public/index.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1379919634530" ignored="false" />
+    <file path="/vote.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1381237635792" ignored="false" />
+    <file path="/creditTable.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382591580120" ignored="false" />
+    <file path="/basicChart.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380110767580" ignored="false" />
+    <file path="/cfs-public-folder.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380791390129" ignored="false" />
+    <file path="/profile.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380422728055" ignored="false" />
+    <file path="/collectionFS_filehandlers.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380435329807" ignored="false" />
+    <file path="$PROJECT_DIR$/../cfs/client/dragndrop.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380704168182" ignored="false" />
+    <file path="/dragndrop.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380704168182" ignored="false" />
+    <file path="/server.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1381225633879" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/server.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380786832042" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/server/publish.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380706742356" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/package.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784168459" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/os.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/basicAuth.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/browser.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/cookieSession.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/vhost.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/boot.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784939357" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/limit.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/tests.os.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/multipart.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415790" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/favicon.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/basicAuth.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/buildinfo.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/session.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/vhost.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/static.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/unipackage.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/query.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/tests.browser.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415791" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/favicon.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/cookieParser.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/os/packages/angularjs.js.map" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/session.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/os/packages/angularjs.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/static.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/query.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/bodyParser.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/cookieParser.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415792" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/angularjs.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/middleware/bodyParser.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/ctl/boot.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/cfs-public-folder.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/webapp.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/angularjs.js.map" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/global-imports.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/os/packages/cfs-public-folder.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/os/packages/cfs-public-folder.js.map" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/package.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415793" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/webapp.js.map" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/package.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415794" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/Readme.md" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415794" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/packages/cfs-public-folder.js.map" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/index.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415794" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/Readme.md" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415796" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/connect.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415796" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/index.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415796" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/proto.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415797" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/connect.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415797" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/cfs-public-folder.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415797" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/client.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783530205" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/npm/cfs-public-folder/main/node_modules/connect/lib/proto.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415797" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/cookieSession.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415797" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/limit.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415798" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/cfs-public-folder/.build/npm/node_modules/connect/lib/middleware/multipart.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380783415798" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/server/appcache.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784200539" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/program.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784939357" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/server/config.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784939357" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/star.json" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/public/angular.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784944892" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/client/app/controller.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784964834" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/client/app/client/app/controller.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380784971883" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/client/packages/angularjs.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/browser/packages/angularjs.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/.meteor/local/build/programs/client/packages/jquery.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="$PROJECT_DIR$/../way_temp/packages/angularjs/.build/npm/node_modules/connect/lib/middleware/directory.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380785755143" ignored="false" />
+    <file path="/webapp.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380788089822" ignored="false" />
+    <file path="$PROJECT_DIR$/../cfs/client/client.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1380788681102" ignored="false" />
+    <file path="$PROJECT_DIR$/../cfs/packages/cfs-public-folder/cfs-public-folder.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1381127681710" ignored="false" />
+    <file path="/*.regexp" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1381128226886" ignored="false" />
+    <file path="/prettyCheckable.css" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1381233527919" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/programs/client/app/client/app/utils.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382500947959" ignored="false" />
+    <file path="$PROJECT_DIR$/../KDDI/client/app/controller.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382930884728" ignored="false" />
+    <file path="$PROJECT_DIR$/../KDDI/client/app/utils.js" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382928504591" ignored="false" />
+    <file path="$PROJECT_DIR$/../KDDI/public/partials/input.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382929778970" ignored="false" />
+    <file path="$PROJECT_DIR$/../KDDI/public/angular.html" changelist="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" time="1382930297798" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WAY" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1516" column="23" selection-start="55447" selection-end="55447" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/publish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="84" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2020958">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="credit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/credit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="158" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/js/prettyCheckable.js" />
+        <option value="$PROJECT_DIR$/public/partials/vote.html" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/client/app/angular.html" />
+        <option value="$PROJECT_DIR$/client/app/app.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/server/npm/livedata/main/node_modules/sockjs/lib/sockjs.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" />
+        <option value="$PROJECT_DIR$/.meteor/local/build/programs/ctl/packages/livedata.js" />
+        <option value="$PROJECT_DIR$/public/angular.html" />
+        <option value="$PROJECT_DIR$/public/bundle/Messages.properties" />
+        <option value="$PROJECT_DIR$/public/bundle/Messages_en.properties" />
+        <option value="$PROJECT_DIR$/public/bundle/Messages_ko.properties" />
+        <option value="$PROJECT_DIR$/client/app/utils.js" />
+        <option value="$PROJECT_DIR$/server/bootstrap.js" />
+        <option value="$PROJECT_DIR$/public/partials/credit/creditTable.html" />
+        <option value="$PROJECT_DIR$/public/partials/credit.html" />
+        <option value="$PROJECT_DIR$/client/app/controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="298" />
+    <option name="y" value="24" />
+    <option name="width" value="1288" />
+    <option name="height" value="865" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Dart</id>
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>LESS</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SASS/SCSS</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WAY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.folding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/partials" />
+      <recent name="$PROJECT_DIR$/.meteor/local/cfs/wayfiles" />
+      <recent name="$PROJECT_DIR$/public/bundle" />
+      <recent name="$PROJECT_DIR$/client/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles/chat" />
+      <recent name="$PROJECT_DIR$/public/styles/checkbox" />
+      <recent name="$PROJECT_DIR$/public/js/i18n" />
+      <recent name="$PROJECT_DIR$/public/js/checkbox" />
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff820e1-0c30-4b62-a886-35c2b8cb15a2" name="Default" comment="" />
+      <created>1377366251645</created>
+      <updated>1377366251645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="298" y="24" width="1288" height="865" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31007138" sideWeight="0.6694796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="564" y="124" width="933" height="672" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3305204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946738" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="8" selection-start="8274" selection-end="8274" vertical-scroll-proportion="0.30715936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/angularjs/package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/angularjs/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="568" selection-end="568" vertical-scroll-proportion="0.034642033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/programs/ctl/npm/mongo-livedata/main/node_modules/mongodb/lib/mongodb/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="9" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.33256352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo-livedata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1231" column="7" selection-start="118534" selection-end="118534" vertical-scroll-proportion="0.33256352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/programs/client/app/partials/vote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="31" selection-start="1564" selection-end="1619" vertical-scroll-proportion="0.35207823" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/local/build/programs/client/app/partials/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="777" selection-end="777" vertical-scroll-proportion="0.55012226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/vote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="43" selection-start="2750" selection-end="2750" vertical-scroll-proportion="0.36919317" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/credit/creditTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="42" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4767726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/angularjs/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="23" selection-start="1813" selection-end="1817" vertical-scroll-proportion="-4.964286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/credit/creditVisual2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/credit/creditVisual1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="59" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.43721974" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/credit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="158" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1516" column="23" selection-start="55447" selection-end="55447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="84" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2020958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

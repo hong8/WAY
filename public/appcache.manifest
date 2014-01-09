@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# 2013-08-12 v1.0
+
+CACHE :
+http://bootswatch.com/united/bootstrap.min.css
+http://bootswatch.com/bower_components/font-awesome/css/font-awesome.min.css
+http://bootswatch.com/assets/css/bootswatch.min.css
+http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css
+http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.css
+http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.print.css
+styles/chat.css
+styles/main.css
+
+http://bootswatch.com/assets/js/bsa.js
+http://bootswatch.com/bower_components/jquery/jquery.min.js
+http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js
+http://bootswatch.com/assets/js/bootswatch.js
+http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js
+http://code.highcharts.com/highcharts.js
+http://arshaw.com/js/fullcalendar-1.6.2/jquery/jquery-ui-1.10.2.custom.min.js
+http://arshaw.com/js/fullcalendar-1.6.2/fullcalendar/fullcalendar.min.js
+https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false
+http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.5.0.js
+
+NETWORK :
+/appcache.manifest
+/sockjs/
+
+FALLBACK :

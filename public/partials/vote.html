@@ -1,9 +1,9 @@
 <style type="text/css">
     .widthEdit {
-        width: 79%;
+        width: 69%;
     }
     .widthNotEdit {
-        width: 86%;
+        width: 71%;
     }
 </style>
 
@@ -11,33 +11,34 @@
     <form class="form-horizontal">
         <fieldset>
             <div class="form-group" >
-                <label class="col-lg-2 control-label" for="txaQuestion" >Question</label>
+                <label class="col-lg-2 control-label" for="txaQuestion" >{{ vote_question_subject }}</label>
 
                 <div class="col-lg-10">
-                    <textarea class="form-control" id="txaQuestion" rows="2" ng-disabled="!editMode">{{ question.question }}</textarea>
+                    <textarea class="form-control" id="txaQuestion" rows="2" style="font-weight: bold;font-size: 15" ng-disabled="!editMode" ng-model="question.question">{{ question.question }}</textarea>
                 </div>
             </div>
 
             <div class="form-group">
-                <label class="col-lg-2 control-label">Options</label>
+                <label class="col-lg-2 control-label">{{ vote_question_options }}</label>
 
                 <div style="position: absolute;margin-top: -30px; right: 12px" ng-show="editMode">
-                    Add Option&nbsp;&nbsp;<button class="btn btn-success icon-plus icon-white" style="width: 30px;height: 30px;padding-right: 22px;margin-right: 10px"/>
+                    {{ vote_add_option }}&nbsp;&nbsp;<button ng-click="addOption()" class="btn btn-success icon-plus icon-white" style="width: 30px;height: 30px;padding-right: 22px;margin-right: 10px"/>
                 </div>
 
-                <div class="col-lg-10" style="height: 176px; overflow: auto;" >
+                <div class="col-lg-10" style="height: 250px; overflow: auto;" >
 
-                    <div style="width: 100%;float: left;vertical-align: middle" ng-repeat="option in question.options">
-                        <div style="width: 5%;float: left;margin-top: 7px">
+                    <div style="width: 100%;float: left;vertical-align: middle" ng-repeat="option in question.options | orderBy:'idx'">
+
+                        <div style="width: 5%;float: left;margin-top: 7px" >
                             {{ $index+1 }}.
                         </div>
                         <!--<div style="width: 100%;position: relative;">-->
-                        <input ng-class="{widthEdit:!editMode, widthNotEdit:editMode}" style="margin-bottom:6px;margin-right: 5px;float: left" type="text" class="form-control" value="{{ option.option }}" ng-disabled="!editMode">
+                        <input ng-class="{widthEdit:editMode, widthNotEdit:!editMode}" style="margin-bottom:6px;margin-right: 5px;float: left" type="text" focus-on="newItemAdded" class="form-control" value="{{ option.option }}" ng-model="option.option" ng-disabled="!editMode">
                         <!--<div class="label label-important" style="width: 80%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0.5;" ng-show="!editMode"> </div>-->
                         <!--</div>-->
-                        <span style="width: 20px;height: 20px;margin-top: 10px; margin-right: 5px;text-align: left;float: left" class="badge badge-info" ng-show="!editMode">{{ option.count }}</span>
-                        <input style="width: 20px;height: 20px; margin-top: 10px;float: left" type="checkbox" name="groupSelect" ng-show="!editMode">
-                        <button style="width: 22px;padding-left: 5px;margin-top: 3px;" class="btn btn-danger icon-remove icon-white" ng-show="editMode"/>
+                        <button ng-click="removeOption($index)" style="width: 32px;height: 32px;padding-top: 8px; padding-left: 9px;margin-right: 5px;margin-top: 3px;float: left" class="btn btn-danger icon-remove icon-white" ng-show="editMode"/>
+                        <span style="width: 30px;height: 30px;margin-top: 5px; margin-right: 5px;text-align: center;padding-top: 8px; float: left" class="badge badge-info" ng-model="option.count">{{ option.count }}</span>
+                        <input id="{{$index}}" style="margin-top: 5px;float: left" type="checkbox" class="chk" name="groupSelect" ng-show="!editMode" ng-model="option.checked" onchange="angular.element(this).scope().setCheck(this)">
                     </div>
                 </div>
 
@@ -47,11 +48,13 @@
 
             <div class="form-group">
                 <div class="col-lg-10 col-lg-offset-2">
-                    <button type="submit" class="btn btn-info" ng-show="editMode" ng-click="editMode=false;">Send Poll</button>
-                    <button type="submit" class="btn btn-info" ng-show="!editMode" ng-click="editMode=true;">Send Vote</button>
+                    <button type="submit" class="btn btn-info" ng-show="!editMode" ng-click="sendVote()">{{ vote_send_vote_title }}</button>
+                    <button type="submit" class="btn btn-info" ng-show="editMode" ng-click="sendQuestion()">{{ vote_send_question_title }}</button>
                 </div>
             </div>
+
         </fieldset>
     </form>
 </div>
 <button ng-show="!newMode" ng-click="backToDetail('promise')" class="btn btn-inverse icon-circle-arrow-left icon-white btn-back"/>
+

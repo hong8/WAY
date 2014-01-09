@@ -2,13 +2,24 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "angularjs": {}
+      "angularjs": {},
+      "collectionFS": {}
     },
     "packages": {
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
         "tag": "v2.0.0",
         "commit": "1eda2bd416c671b9965d20f3c5e40c5a5ba11364"
+      },
+      "collectionFS": {
+        "git": "https://github.com/raix/Meteor-CollectionFS.git",
+        "tag": "v0.3.5",
+        "commit": "a6fbde6e2df3f081c51cad951305d1e0754d67de"
+      },
+      "cfs-public-folder": {
+        "git": "https://github.com/nooitaf/meteor-cfs-public-folder.git",
+        "tag": "v0.0.2",
+        "commit": "7531bc924a9b9e5ecd568932c7048692330882fb"
       }
     }
   }

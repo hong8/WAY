@@ -1,26 +1,26 @@
-<div class="navbar" style="width: 70px;height: 30px; background-color: white;position: absolute;top: 0;right: 0" >
+<div class="navbar" style="width: 70px;height: 30px; background-color: white;position: absolute;top: -5px;right: 0" >
     <div>
-        <button class="navbar-toggle" type="button" data-toggle="dropdown" data-target="#navbar-main" >
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
+        <button class="btn btn-default icon-info-sign" style="position: absolute;bottom: 5px;right: 10px" type="button" data-toggle="dropdown" data-target="#navbar-main" ></button>
         <ul class="dropdown-menu" style="left: auto; right: 8px;top: 40px; bottom: auto">
-            <li ng-click="selectView(1)" ng-class="{active : dropSelected1}"><a href="">Table</a></li>
+            <li ng-click="selectView(1)" ng-class="{active : dropSelected1}"><a href="">{{ credit_view_table }}</a></li>
             <li class="divider"></li>
-            <li ng-click="selectView(2)" ng-class="{active : dropSelected2}"><a href="">Visualization1</a></li>
-            <li ng-click="selectView(3)" ng-class="{active : dropSelected3}"><a href="">Visualization2</a></li>
+            <li ng-click="selectView(2)" ng-class="{active : dropSelected2}"><a href="">{{ credit_view_chart1 }}</a></li>
+            <li ng-click="selectView(3)" ng-class="{active : dropSelected3}"><a href="">{{ credit_view_chart2 }}</a></li>
         </ul>
     </div>
 </div>
 
+
+<div class="col-lg-10" style="position: absolute;top: 5px;right: 40px;z-index: 10000;">
+    <select id="sltDuration" class="form-control" ng-model="duration" ng-change="changeDuration()" ng-options="item.name for item in durations"></select>
+</div>
 
 <div class="well">
     <form class="form-horizontal">
         <fieldset>
             <div class="form-group">
                 <div class="col-lg-10">
-                    <div style="height: 305px;" ng-init="dropSelected1 = true;template = {url:'partials/credit/creditTable.html'}" ng-include="template.url"></div>
+                    <div style="height: 375px;" ng-init="dropSelected1 = true;template = {url:'partials/credit/creditTable.html'}" ng-include="template.url"></div>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
 
             <div class="form-group">
                 <div class="col-lg-10 col-lg-offset-2">
-                    <button type="submit" class="btn btn-info">Send Report</button>
+                    <button type="submit" class="btn btn-info" ng-click="sendReport()">{{ credit_send_credit_title }}</button>
                 </div>
             </div>
 
